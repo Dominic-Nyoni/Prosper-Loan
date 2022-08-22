@@ -7,6 +7,18 @@
 The data consists of information regarding 113,937 loans from ProsperLoans, including
 LoanStatus, BorrowerRate, and more information about loans.The dataset was sourced from https://s3.amazonaws.com/udacity-hosted-downloads/ud651/prosperLoanData.csv while the Data dictionary was collected from https://docs.google.com/spreadsheet/d/1gDyi_L4UvlrLTEC6Wri5nbaMmkGmLQBk-Yx3z0XDEtl/edit#gid=0  
 
+## Project Structure
+
+Part 1 contains exploratory data visualizations.Python visualization libraries were used to systematically explore the dataset,starting from plots of single variables and building up to plots of multiple variables. In Part II, contains explanatory data visualization. A short presentation was produced that illustrated key findings.
+
+## What do i need to install?
+
+This project uses Python 3 and is designed to be completed through the jupyter notebooks IDE.It is highly recommended that you use the Anaconda Distribution.The following libraries were used:
+* NumPy
+* pandas
+* Matplotlib
+* Seaborn
+
 ## Summary of Findings
 
 Exploration of the Prosper Loans dataset  indicates that Prosper Score and BorrowerRate/interest rate have the most effect on the loan outcome status.In particular,borrowers who have high prosper scores and interest rates below 20% tend to complete payment of their loans as opposed to borrowers with low to average prosper scores and interest rates over 20%.The distribution of prosper scores among borrowers who completed their loan payments show that high prosper scores(7-10) are a clear majority while the low scores(below 5) are the least frequent.
